@@ -47,9 +47,24 @@ function Header() {
           </div>
         </div>
         <div className="social-media">
-          <div> github</div>
-          <div>linkdin</div>
-          <div>instagram</div>
+          <a href="https://github.com/sufiyan-MERN" target="_blank" rel="noopener noreferrer" className="social-link github-link">
+            <div className="social-icon">
+              G
+            </div>
+            <span className="social-text">Github</span>
+          </a>
+          <a href="https://www.linkedin.com/in/sufiyan-tdc-b12311429/" target="_blank" rel="noopener noreferrer" className="social-link linkedin-link">
+            <div className="social-icon">
+              L
+            </div>
+            <span className="social-text">LinkedIn</span>
+          </a>
+          <a href="https://www.instagram.com/al._sufiyan" target="_blank" rel="noopener noreferrer" className="social-link instagram-link">
+            <div className="social-icon">
+              I
+            </div>
+            <span className="social-text">Instagram</span>
+          </a>
         </div>
       </header>
     </div>
