@@ -11,13 +11,13 @@ function Education(){
             institution: "St Joseph Junior College"
         },
         {
-            degree: "Secondary School Certificate",
+            degree: "Primary Education (SSC)",
             duration: "Complected 2023",
             institution: "Royal Mission High School"
         }
     ];
 
-    return <div className="education-section">
+    return <div id="education" className="education-section">
         <h1 className="education-title">Education</h1>
         <table className="education-table">
             <thead>

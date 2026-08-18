@@ -1,21 +1,11 @@
+import Navbar from "./Navbar";
+
 function Header() {
   return (
     <div className="header">
       <header>
-        <div className="nav-bar">
-          <div>
-            <h2>Full satck developer</h2>
-          </div>
-          <div className="nav-links">
-            <ul>
-              <li>Home</li>
-              <li>Skills</li>
-              <li>Projects</li>
-              <li>Education</li>
-            </ul>
-          </div>
-        </div>
-        <div className="profile">
+        <Navbar />
+        <div id="home" className="profile">
           <div className="introduction">
             <p className="greetings">Hello, I'm</p>
             <h1>
@@ -47,22 +37,31 @@ function Header() {
           </div>
         </div>
         <div className="social-media">
-          <a href="https://github.com/sufiyan-MERN" target="_blank" rel="noopener noreferrer" className="social-link github-link">
-            <div className="social-icon">
-              G
-            </div>
+          <a
+            href="https://github.com/sufiyan-MERN"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-link github-link"
+          >
+            <div className="social-icon">G</div>
             <span className="social-text">Github</span>
           </a>
-          <a href="https://www.linkedin.com/in/sufiyan-tdc-b12311429/" target="_blank" rel="noopener noreferrer" className="social-link linkedin-link">
-            <div className="social-icon">
-              L
-            </div>
+          <a
+            href="https://www.linkedin.com/in/sufiyan-tdc-b12311429/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-link linkedin-link"
+          >
+            <div className="social-icon">L</div>
             <span className="social-text">LinkedIn</span>
           </a>
-          <a href="https://www.instagram.com/al._sufiyan" target="_blank" rel="noopener noreferrer" className="social-link instagram-link">
-            <div className="social-icon">
-              I
-            </div>
+          <a
+            href="https://www.instagram.com/al._sufiyan"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-link instagram-link"
+          >
+            <div className="social-icon">I</div>
             <span className="social-text">Instagram</span>
           </a>
         </div>
